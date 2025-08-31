@@ -1,11 +1,12 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #edb1f1;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
   padding: 30px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -31,6 +32,7 @@ h2 {
   font-size: 28px;
 }
 select {
+  background-color: #f5c7f7;
   display: block;
   width: 100%;
   border-radius: 8px;
